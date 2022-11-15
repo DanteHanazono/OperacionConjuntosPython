@@ -9,10 +9,8 @@ u = ("0", "1", "2", "3", "4", "5", "6", "7",
 A = []
 B = []
 C = []
-ancho = 40
-relleno1 = "-"
-relleno2 = " "
-cadenaVacia = ""
+formato = (40, "-", " ", "")
+ancho, relleno1, relleno2, cadenaVacia = formato
 mensaje = ("MENU DE OPCIONES", "LLENADO DE CONJUNTOS", "UNION DE CONJUNTOS",
            "INTERSECCION DE CONJUNTOS", "DIFERENCIA DE CONJUNTOS", "SALIENDO DEL PROGRAMA")
 
