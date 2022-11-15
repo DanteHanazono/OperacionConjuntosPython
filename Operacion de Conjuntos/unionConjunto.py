@@ -1,11 +1,11 @@
 from mostrarConjuntos import mostrar
 
 
-def union(cadenaVacia, ancho, relleno2, relleno1, Mensaje, opcion, cA, C, A, cB, B):
+def union(cadenaVacia, ancho, relleno2, relleno1, mensaje, opcion, cA, C, A, cB, B):
     k = 0
     print(cadenaVacia.center(ancho, relleno2))
     print(cadenaVacia.center(ancho, relleno1))
-    print(Mensaje[opcion].center(ancho, relleno2))
+    print(mensaje[opcion].center(ancho, relleno2))
     for i in range(cA):
         C.insert(k, A[i])
         k += 1
