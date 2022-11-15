@@ -1,12 +1,12 @@
 from llenadoConjunto import llenado
 
 
-def llenando(cA, A, U, cB, B, cadenaVacia, ancho, relleno2, relleno1):
+def llenando(cA, A, u, cB, B, cadenaVacia, ancho, relleno2, relleno1):
     i = 0
     print(" ")
     print("Elementos del conjunto A")
     while i != cA:
-        A.insert(i, llenado(i, U))
+        A.insert(i, llenado(i, u))
         if i > 0:
             for j in range(i):
                 if A[j] == A[i]:
@@ -19,7 +19,7 @@ def llenando(cA, A, U, cB, B, cadenaVacia, ancho, relleno2, relleno1):
     print(" ")
     print("Elementos del conjunto B")
     while i != cB:
-        B.insert(i, llenado(i, U))
+        B.insert(i, llenado(i, u))
         if i > 0:
             for j in range(i):
                 if B[j] == B[i]:
